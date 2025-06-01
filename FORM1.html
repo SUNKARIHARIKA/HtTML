@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="image tag.html" method="get" target="_blank">
+        <fieldset>
+            <legend> Persnol Information</legend>
+        <label for="name">Name:</label>
+        <input type="txt" id="txt1" name="tet1" placeholder="Enter Name" required maxlenght="6"><br><br><br>
+        <label for="date of birth">Date Of Birth</label>
+        <input type="date" id="d1" name="dat1"><br><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="p1" name="pwd1" placeholder="Enter Password">
+        <label for="conform password">Conform Password</label>
+        <input type="password" id="p1" name="pwd1"><br><br><br>
+        <label for="address">Address</label>
+        <textarea rows="5" cols="10" name="addr" id="a1" placeholder="Enter Address"></textarea><br><br><br>
+        <label for="country">Select Country</label>
+        <select name="country" size="3">
+            <option value="India">India</option>
+            <option value="china">China</option>
+            <option value="america">America</option>
+            <option value="Jpan">Japan</option>
+            <option value="australia">Australia</option>
+        </select><br><br><br>
+        <label for="hobbies">Hobbies:</label><br>
+        <input type="checkbox" name="writing" id="chk1">Writing
+        <input type="checkbox" name="reading" id="chk2">Reading<br><br>
+        <input type="checkbox" name="playing" id="chk3">Playing
+        <input type="checkbox" name="sleeping" id="chk4">Sleeping<br><br><br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="r2" value="m">Male
+        <input type="radio" name="r2" value="f">females<br><br><br>
+        <label for="branches">Branches:</label>
+        <select name="branches" size="2" multiple>
+        <option value="cse">CSE</option>
+        <option value="ECE" selected>ECE</option>
+        <option value="mech">Mech</option>
+        <option value="civil">Civil</option><br>
+        </select><br><br><br>
+        <input type="submit" value="Click here">
+        <input type="reset">
+    </fieldset>
+    </form>
+        
+
+</body>
+</html>
